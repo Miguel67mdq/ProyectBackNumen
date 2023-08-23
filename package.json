@@ -1,12 +1,29 @@
 {
   "name": "proyectointegrador",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Proyecto Integrador de Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguel67mdq/ProyectBackNumen.git"
+  },
+  "author": "Miguel Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguel67mdq/ProyectBackNumen/issues"
+  },
+  "homepage": "https://github.com/Miguel67mdq/ProyectBackNumen#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
